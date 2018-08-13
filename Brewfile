@@ -17,6 +17,7 @@ brew 'dark-mode'
 brew 'packer'
 brew 'graphviz'
 brew 'node'
+brew 'lastpass-cli', args: [' --with-pinentry']
 
 tap 'caskroom/cask'
 cask_args appdir: '/Applications'
@@ -41,3 +42,5 @@ cask 'github'
 cask 'postman'
 cask 'slack'
 cask 'drawio'
+cask 'robo-3t'
+cask 'istat-menus'
